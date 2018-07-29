@@ -21,3 +21,6 @@ zuul:
   prefix:  /api
   routes:
     organizationservice: /organization/**
+    licensingservice: /licensing/**
+  debug:
+    request: true
